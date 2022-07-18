@@ -1,0 +1,58 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background-image: url('https://hcmuni.fpt.edu.vn/Data/Sites/1/media/1-2022-hieu/jobfair/tanghoadoanhnghiep.jpg'); 
+    background-repeat: no-repeat; 
+   background-size: cover;
+    
+    }
+    
+    .bg-indigo {
+    background-color: #4835d4;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+body{
+    display: inline;
+}    
+.cp{
+    margin-left: 180px;
+}
+.navbar-dark {
+    background-color: #ff9326;
+}
+.im{
+    margin-left: 40px;
+}
+.st {
+    background-color: #ff9326;
+    color: black;
+}
+.cp{
+    background-color: #6fd27c;
+    color: black;
+}

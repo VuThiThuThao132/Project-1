@@ -1,0 +1,145 @@
+html,
+body {
+    background-image: url('https://vcdn-vnexpress.vnecdn.net/2020/12/17/a-nh-1-vne-jpg-1608192150-1536-1608192324.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: rgb(10, 10, 10);
+    background-color: #FFC312;
+    width: 100px;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.icon {
+    margin-left: 80px;
+}
+
+.im {
+    margin-left: 40px;
+}
+
+.navbar-dark {
+    background-color: #ff9326;
+}
+
+.topic {
+    text-align: center;
+    margin-top: 900px;
+}
+
+.card2 {
+    display: flex;
+
+}
+
+.cp {
+    margin-left: 20px;
+}
+
+.st {
+    margin-left: 30px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.ul {
+    border: 1px solid #0e0d0e;
+    background-color: #ff9326 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.li {
+    border-right: 1px solid #171415;
+}
+
+.li:last-child {
+    border-right: none;
+}
+
+
+.li {
+    float: left;
+    border-right: 1px solid #58257b;
+}
+
+
+.li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+    color: white;
+    background-color: #fdfd4a;
+    font-weight: bold;
+}

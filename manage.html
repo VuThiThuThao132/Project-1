@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link href="css/manage.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="font-size: 20px; margin-bottom: 10px;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="50" width="60"></a>
+            <div class="collapse navbar-collapse show" id="Navbar">
+                <ul class="navbar-nav">
+                    <li class="dropdown im">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  style="color:white; margin-top: 15px;"><span class="fa fa-list fa-lg"> Menu</span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation"><a href="index.html" role="menuitem" tabindex="-1" style="color:black;"><span class="fa fa-home fa-lg"></span>
+                                Home</a>
+                            </li>
+                            <li role="presentation"><a href="login.html" role="menuitem" tabindex="-1" style="color:black;"><span class="fa fa-user fa-lg"></span>
+                                Login</a>
+                            </li>
+                            <li role="presentation"><a href="register.html" role="menuitem" tabindex="-1" style="color:black;"><span class="fa fa-registered"></span>
+                                Register</a>
+                            </li>
+                            <li role="presentation"><a href="contactus.html" role="menuitem" tabindex="-1" style="color:black;"><span class="fa fa-address-card fa-lg"></span>
+                                Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item im"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                            <li class="nav-item active im " ><a class="nav-link" href="#"><span
+                                class="fa fa-user fa-lg"></span> Manage</a></li>
+                                <li  class="nav-item im "><a class="nav-link" href="./register.html"><span
+                                    class="fa fa-registered"></span> Register</a></li>
+                    <li class="nav-item im" ><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="font-size: 20px; background-color: bisque;">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" href="#" style="margin-right: 100px !important;"><img src="img/logo.png"
+          height="60" width="80"></a>
+      <div class="collapse navbar-collapse show " id="Navbar">
+        <ul class="navbar-nav ul">
+          <!-- <li class="li">
+            <a class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-list"></span> Menu<b
+                class="caret"></b></a>
+            <ul class="dropdown-menu bg-warning" style="margin-left: 500px;">
+              <li><a class="dropdown-item" href="index.html"><span class="fa fa-home"></span> Home</a>
+              </li>
+              <li><a class="dropdown-item" href="login.html"><span class="fa fa-user"></span> Login</a>
+              <li><a href="register.html"><span class="fa fa-registered"></span> Register</a>
+              </li>
+              <li><a class="dropdown-item" href="contactus.html"><span class="fa fa-address-card"></span>
+                  Contact</a>
+              </li>
+            </ul>
+          </li> -->
+          <li class="li"><a href="index.html"><span class="fa fa-home"> Home</a>
+          </li>
+          <li class="li"><a href="#" class="active bg-success"><span class="fa fa-users"> Manage</a></li>
+          <li class="li"><a href="login.html"><span class="fa fa-user"> Login</a></li>
+          <li class="li"><a href="contactus.html"><span class="fa fa-address-card"> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-9">
+        <div class="card p-4 mt-3">
+          <h3 class="heading mt-5 text-center">What do you want to search?</h3>
+          <div class="d-flex justify-content-center px-5">
+            <div class="search">
+              <input type="text" class="search-input" placeholder="Search..." name="">
+              <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a>
+            </div>
+          </div>
+          <div class="row mt-4 g-1 px-4 mb-5">
+            <div class="col-md-2">
+              <div class="card-inner p-3 d-flex flex-column align-items-center">
+
+                <img src="https://i.imgur.com/Mb8kaPV.png" width="50">
+                <div class="text-center mg-text">
+                  <span class="navbar-text ml-auto"><a style="color: blue; font-size: 15px;" data-toggle="modal"
+                      data-target="#accountModal">
+                      Account</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card-inner p-3 d-flex flex-column align-items-center">
+                <img src="https://i.imgur.com/YLsQrn3.png" width="50">
+
+                <div class="text-center mg-text">
+                  <span class="navbar-text ml-auto"><a style="color: blue; font-size: 15px;" data-toggle="modal"
+                      data-target="#eventModal">
+                      Event</a></span>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-2">
+                  <div class="card-inner p-3 d-flex flex-column align-items-center">
+                    <img src="https://i.imgur.com/tmqv0Eq.png" width="50">
+                    <div class="text-center mg-text">
+                      <span class="mg-text">Delivery</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card-inner p-3 d-flex flex-column align-items-center">
+                    <img src="https://i.imgur.com/D0Sm15i.png" width="50">
+                    <div class="text-center mg-text">
+                      <span class="mg-text">Product</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card-inner p-3 d-flex flex-column align-items-center">
+                    <img src="https://i.imgur.com/Z7BJ8Po.png" width="50">
+                    <div class="text-center mg-text">
+                      <span class="mg-text">Return</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card-inner p-3 d-flex flex-column align-items-center">
+                    <img src="https://i.imgur.com/YLsQrn3.png" width="50">
+                    <div class="text-center mg-text">
+                      <span class="mg-text">Guarantee</span>
+                    </div>
+                  </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <!--Custom styles-->
+    <link href="css/student.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="font-size: 20px;background-color: bisque; ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
+                aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#" style="margin-right: 100px !important;"><img src="img/logo.png"
+                    height="60" width="80"></a>
+            <div class="collapse navbar-collapse show " id="Navbar">
+                <ul class="navbar-nav ul">
+                    <!-- <li class="li">
+                <a class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-list"></span> Menu<b
+                    class="caret"></b></a>
+                <ul class="dropdown-menu bg-warning" style="margin-left: 500px;">
+                  <li><a class="dropdown-item" href="index.html"><span class="fa fa-home"></span> Home</a>
+                  </li>
+                  <li><a href="register.html"><span class="fa fa-registered"></span> Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="contactus.html"><span class="fa fa-address-card"></span>
+                      Contact</a>
+                  </li>
+                </ul>
+              </li> -->
+                    <li class="li"><a href="studentHome.html"><span class="fa fa-home"> Home</a>
+                    </li>
+                    <li class="li"><a href="login.html"><span class="fa fa-user"> Login</a>
+                    </li>
+                    <li class="li"><a href="#" class="active bg-warning"><span class="fa fa-graduation-cap ">
+                                Student</a></li>
+                    <li class="li"><a href="contactus.html"><span class="fa fa-address-card"> Contact</a></li>
+                </ul>
+                <span class="navbar-text ml-auto" style="font-size: 20px;  margin-right: 100px; "><a class="Logout"
+                        href="./login.html">
+                        <span class="fa fa-sign-out" style=" margin-left: 10px;"></span>Logout</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container bootstrap snippets bootdey">
+        <div class="panel-body inf-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <img alt="" style="width:600px;" title="" class="img-circle img-thumbnail isTooltip"
+                        src="https://bootdey.com/img/Content/avatar/avatar7.png" data-original-title="Usuario">
+                </div>
+                <div class="col-md-6">
+                    <strong style="font-size: 25px;">Information</strong><br>
+                    <div class="table-responsive">
+                        <table class="table table-user-information">
+                            <tbody>
+                                <!-- <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-asterisk text-primary"></span>
+                                            ID
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        12345
+                                    </td>
+                                </tr> -->
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-user  text-primary"></span>
+                                            Name
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        Nguyen Van A
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-cloud text-primary"></span>
+                                            Address
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        89, To Vinh Dien Street, Khuong Trung ward, Thanh Xuan district, Hanoi city.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-bookmark text-primary"></span>
+                                            Gender
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        Male
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-bookmark text-primary"></span>
+                                            Phone
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        0967822566
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-eye-open text-primary"></span>
+                                            Major
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        CNTT
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <span class="glyphicon glyphicon-eye-open text-primary"></span>
+                                            Mail
+                                        </strong>
+                                    </td>
+                                    <td class="text-dark">
+                                        NguyenVanA@gmail.com
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <td>
+                            <button type="button" class="btn btn-link bg-warning">
+                                EDIT
+                            </button>
+                        </td>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

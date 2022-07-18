@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <!--Custom styles-->
+  <link href="css/studentHome.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="font-size: 20px;background-color: bisque; ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" href="#" style="margin-right: 100px !important;"><img src="img/logo.png"
+          height="60" width="80"></a>
+      <div class="collapse navbar-collapse show " id="Navbar">
+        <ul class="navbar-nav ul">
+          <!-- <li class="li">
+            <a class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-list"></span> Menu<b
+                class="caret"></b></a>
+            <ul class="dropdown-menu bg-warning" style="margin-left: 500px;">
+              <li><a class="dropdown-item" href="index.html"><span class="fa fa-home"></span> Home</a>
+              </li>
+              <li><a href="register.html"><span class="fa fa-registered"></span> Register</a>
+              </li>
+              <li><a class="dropdown-item" href="contactus.html"><span class="fa fa-address-card"></span>
+                  Contact</a>
+              </li>
+            </ul>
+          </li> -->
+          <li class="li"><a href="index.html"><span class="fa fa-home"> Home</a>
+          </li>
+          <li class="li"><a href="#" class="active bg-warning"><span class="fa fa-user-plus"> Student Home</a>
+          </li>
+
+          <li class="li"><a href="contactus.html"><span class="fa fa-address-card"> Contact</a></li>
+        </ul>
+        <span class="navbar-text ml-auto" style="font-size: 20px;  margin-right: 100px; color: blue !important;"><a
+            class="Logout" href="./login.html">
+            <span class="fa fa-sign-out" style="color: blue; margin-left: 10px;"></span>Logout</a>
+      </div>
+    </div>
+  </nav>
+  <section class="event" style="background-color: #eee;">
+
+    <div class="container py-5 mt-5">
+      <div class="card p-4 mt-3">
+        <div class="d-flex justify-content-center px-5">
+          <div class="search">
+            <input type="text" class="search-input" placeholder="Search Event..." name="">
+            <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="d-flex justify-content-between p-3">
+              <h4 class=" text-center">Summer 2022</h4>
+            </div>
+            <img height="316px !important" src="img/FPT summer.jpg" class="card-img-top" alt="Laptop" />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="nomal"><a href="#!" class="text-muted">Start time : 8:00 a.m</a></p>
+                <p class="nomal"><a href="#!" class="text-muted">End time : 17:00 p.m</a></p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <button class="btn float-left btn-sm" type="button"><a
+                  href="viewDetailSummer2022EM.html">Details</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="d-flex justify-content-between p-3">
+              <h4 class="text-center">Ngày hội việc làm</h4>
+            </div>
+            <img height="327px !important" src="img/Ngayhoivclm.jpg" class="card-img-top" alt="Laptop" />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="nomal"><a href="#!" class="text-muted">Start time : 9:00 a.m</a></p>
+                <p class="nomal"><a href="#!" class="text-muted">End time : 12:00 p.m</a></p>
+              </div>
+              <div class="card-footer">
+                <button class="btn float-left btn-sm" type="button"><a href="viewDetailsNHVL.html">Details</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+          <div class="card">
+            <div class="d-flex justify-content-between p-3">
+              <h4 class=" text-center">Talkshow “Đặt câu hỏi bản chất”</h4>
+            </div>
+            <img height="300px !important" src="img/talkshow.jpg" class="card-img-top" alt="Laptop" />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="nomal"><a href="#!" class="text-muted">Start time :10 :00 a.m</a></p>
+                <p class="nomal"><a href="#!" class="text-muted">End time : 16:00 p.m</a></p>
+              </div>
+              <div class="card-footer">
+                <button class="btn float-left btn-sm" type="button">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 offset-1 col-sm-2">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="./contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-5">
+          <h5>Our Address</h5>
+          <address>
+            1. HCM: Lô E2a-7, Đường D1 Khu Công nghệ cao, P. Long Thạnh Mỹ, TP. Thủ Đức, TP. Hồ Chí
+            Minh<br />
+            2. Hà Nội : Khu Giáo dục và Đào tạo – Khu Công nghệ cao Hòa Lạc – Km29 Đại lộ Thăng Long, H.
+            Thạch
+            Thất, TP. Hà Nội<br />
+            3. Dà Nẵng : Khu Đô thị Công nghệ FPT Đà Nẵng, P. Hoà Hải, Q. Ngũ Hành Sơn, TP. Đà Nẵng<br />
+            4. Cần Thơ : Số 600 Đường Nguyễn Văn Cừ (nối dài), P. An Bình, Q. Ninh Kiều, TP. Cần Thơ <br />
+            <i class="fa fa-phone fa-lg"></i>: <br>
+            <i class="fa fa-envelope fa-lg"></i>:
+            <a href="mailto:FPTUEventSchecdule@gmail.com">FPTUEventSchecdule@gmail.com</a>
+          </address>
+        </div>
+        <div class="col-12 col-sm-4 align-self-center">
+          <div class="text-center">
+            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .navbar-dark {
+        background-color: #ff9326;
+    }    
+    .im{
+        margin-left: 40px;
+    }
+    section{
+        margin-top: 60px;
+        background-color: #dca737;
+    }
+    .reset{
+        margin-right: 25px;
+    }
+    

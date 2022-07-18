@@ -1,0 +1,79 @@
+body {
+    /* background-image: url('https://media.istockphoto.com/photos/office-background-picture-id1189964480?k=20&m=1189964480&s=612x612&w=0&h=flD84jmIm7SpqTg4QYSw6gvwScibCm8THZBvve667XQ='); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-brand {
+    margin-right: 150px;
+    margin-top: 5px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 400px;
+
+}
+
+.li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+
+.li:last-child {
+    border-right: none;
+}
+
+
+.li {
+    float: left;
+}
+
+
+.li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+    color: white;
+    background-color: #7e7e77;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 250px;
+}
+
+h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+}
+
+.a {
+    margin-top: 40px !important;
+    padding: 15px 15px 15px 15px !important;
+    font-size: 20px !important;
+    border-radius: 90px !important;
+    background-color: #ffa50b;
+}
+
+.sn {
+    margin-top: 220px !important;
+    margin-right: 280px;
+}
